@@ -1,0 +1,5 @@
+{
+  "name": "PawsAdopt",
+  "description": "A modern pet adoption platform to find your perfect furry companion.",
+  "requestFramePermissions": ["geolocation"]
+}
