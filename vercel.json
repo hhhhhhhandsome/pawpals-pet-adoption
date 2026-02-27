@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/pets/:id",
+            "destination": "/api/pets/[id]"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        },
+        {
+            "source": "/((?!api).*)",
+            "destination": "/"
+        }
+    ]
+}
